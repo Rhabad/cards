@@ -1,0 +1,38 @@
+.contenedor{
+    border: 2px solid #0D1282;
+    border-radius: 10px;
+    display: flex;
+    margin: 50px 400px 50px 400px;
+    justify-content: space-between;
+}
+    .cabecera{
+        background: #E8FFCE;
+        padding-left: 20px;
+    }
+        p{
+            color: #0D1282;
+        }
+    
+    .bandaVertical{
+        background: #16FF00;
+        width: 33%;
+        margin-right: 1.5rem;
+        position: relative;
+    }
+        .logo{
+            align-items: center;
+            background: #E8FFCE;
+            border: 2px solid black;
+            box-shadow: 4px 4px 4px 0 #b7acac;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            left: calc(50% - 35px);
+            position: absolute;
+            top: -30px;
+            width: 70px;
+            left: -15px;
+        }
+            img{
+                transform: scale(80%);
+            }

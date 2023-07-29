@@ -1,0 +1,63 @@
+.card{
+    background: red;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    text-align: center;
+    margin: 40px 400px;
+    border: 1px solid black;
+    position: relative;
+}
+.card::before,
+.card::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white;
+    border-radius: inherit;
+    border: 2px solid #c9bdbd;
+    transform: rotate(-8deg);
+    z-index: -1;
+}
+.card::before{
+    transform: rotate(9deg);
+    left: 12px;
+    top: 15px;
+}
+.card::after{
+    transform: rotate(-7deg);
+    right: 6px;
+    bottom: 6px;
+}
+
+
+
+    .fondo{
+        background: url(../img/camara-clasica.jpg);
+        background-position: center;
+        background-attachment: scroll;
+        background-size: cover;
+        display: flex;
+        justify-content: flex-end;
+        height: 300px;
+    }
+        .precio{
+            background: rgba(255, 0, 0, 0.8);
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            box-shadow: inset 0px 1px 13px 14px #fffbfbb5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+        }
+            .elprecio{
+                font-size: 3rem;
+                color: #ffffff;
+                font-style: italic;
+                font-weight: 700;
+            }
+    .pie{
+        font-size: 20px;
+    }

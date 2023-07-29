@@ -1,0 +1,62 @@
+.card{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 60%;
+    height: 300px;
+    margin: 100px 200px;
+}
+    .contenido{
+        background: #000;
+        border-radius: 15px 0px 0px 15px;
+        color: #fff;
+    }
+        .lapersona{
+            margin: 50px 50px;
+            text-align: left;
+        }
+        .botones{
+            text-align: center;
+            color: #fff;
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+            a{
+                text-decoration: none;
+            }
+            .btn1{
+                background: #5252b4;
+                color: #fff;
+                width: 100px;
+                height: 50px;
+            }
+            .btn2{
+                background: #fff;
+                color: #5252b4;
+                width: 100px;
+                height: 50px;
+            }
+            .btn{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 10px;
+            }
+            .btn:hover{
+                background: red;
+                color: yellow;
+            }
+
+
+    .fotoperfil{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 300px;
+    }
+        .fotoperfil img{
+            width: 200px;
+            height: 200px;
+        }

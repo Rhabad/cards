@@ -1,0 +1,76 @@
+body{
+    background: #1C82AD;
+    color: #fff;
+}
+
+.card{
+    border: 15px solid #fff;
+    background: #0F076F;
+    margin: 80px 500px;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    
+}
+    .persona{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+        .imagen{
+            background: #fff;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            overflow: hidden;
+            text-align: center;
+            margin-left: 5px;
+        }
+            .imagen img{
+                width: 90px;
+            }
+        .nombre{
+            font-size: 28px;
+            width: 130px;
+            text-align: center;
+        }
+    
+    .validesFecha{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+        .vali{
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 40px;
+        }
+        .fecha{
+            display: flex;
+            justify-content: space-around;
+            height: 90px;
+        }
+            .lafecha{
+                background: #6868e3;
+                width: 95px;
+                text-align: center;
+            }
+
+
+    .pie{
+        background: #fff;
+        color: #0F076F;
+        display: flex;
+        border: 3px solid #0F076F;
+        margin-top: auto;
+        margin-bottom: 15px;
+        height: 50px;
+        font-size: 40px;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    
+    

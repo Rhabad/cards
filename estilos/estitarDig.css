@@ -1,0 +1,35 @@
+.card{
+    border: 2px solid black;
+    margin: auto 470px;
+}
+    .fondo{
+        background: url(../img/persona-movil.png);
+        background-position: center;
+        background-attachment: contain;
+        background-size: cover;
+        display: flex;
+        justify-content: flex-end;
+        height: 500px;
+    }
+        .contactos{
+            display: flex;
+            flex-direction: column;
+            background: #000;
+            width: 30px;
+            justify-content: space-between;
+            height: 180px;
+            align-items: center;
+        }
+            .social{
+                color: red;
+                font-size: 27px;
+            }
+    .pie{
+        background: red;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        height: 33px;
+        align-items: center;
+        font-size: 1.5rem;
+    }
